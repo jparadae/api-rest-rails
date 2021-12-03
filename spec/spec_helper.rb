@@ -20,7 +20,10 @@ RSpec.configure do |config|
 # [...]
 #RSpec.configuration do |config|
   # [...]
-  config.include RequestSpecHelper, type: :request
+  #config.include RequestSpecHelper, type: :request
+  config.include RequestSpecHelper
+  config.include ControllerSpecHelper
+
   # [...]
 
   # rspec-expectations config goes here. You can use an alternate
