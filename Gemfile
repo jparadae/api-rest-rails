@@ -37,6 +37,7 @@ group :development do
   gem 'spring'
   gem 'bcrypt', '~> 3.1.7'
   gem 'jwt'
+  gem 'active_model_serializers', '~> 0.10.0'
 end
 
 
